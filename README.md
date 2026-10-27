@@ -16,7 +16,7 @@ Statyczna strona (HTML + CSS, bez WordPressa) hostowana na GitHub Pages pod dome
 W `index.html` (sekcja „Dane fundacji”) i w `polityka-prywatnosci.html` (punkt 1) są żółte pola **UZUPEŁNIJ**:
 
 - adres siedziby
-- numer KRS
+- ~~numer KRS~~ (wpisany: 0001189157)
 - NIP
 - REGON
 
