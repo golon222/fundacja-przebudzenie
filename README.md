@@ -37,3 +37,14 @@ KRS 0001189157 · NIP 8411742753 · REGON 542493827
 | CNAME | www   | golon222.github.io    |
 
 Usuń stare rekordy A/CNAME wskazujące na dawny hosting.
+
+## SEO – po uruchomieniu domeny
+
+1. **Google Search Console** (search.google.com/search-console) → Dodaj usługę → *Domena* `fundacjaprzebudzenie.com`.
+   Google poda rekord TXT – dodaj go w Cloudflare (DNS → Add record → TXT, Name `@`).
+2. W Search Console: **Mapy witryn** → wpisz `sitemap.xml` → Prześlij.
+3. **Sprawdzanie adresu URL** → `https://fundacjaprzebudzenie.com/` → *Poproś o zindeksowanie*.
+4. **Profil firmy w Google** (business.google.com) – załóż wizytówkę „Fundacja Przebudzenie”, kategoria *Organizacja charytatywna* / *Fundacja*, adres w Lęborku, link do strony.
+5. Dodaj link do strony w bio na Instagramie.
+
+Przy zmianie treści zaktualizuj datę `lastmod` w `sitemap.xml`.
