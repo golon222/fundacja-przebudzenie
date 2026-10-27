@@ -2,19 +2,22 @@
 <html lang="pl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Fundacja Przebudzenie – wspieramy dzieci i młodzież</title>
-  <meta name="description" content="Fundacja „Przebudzenie” wspiera dzieci i młodzież w odkrywaniu i rozwijaniu ich potencjału: edukacja, rozwój talentów, sport i zdrowie, pomoc rodzinom w kryzysie.">
+  <meta name="description" content="Lęborska Fundacja Przebudzenie wspiera dzieci i młodzież w odkrywaniu i rozwijaniu ich potencjału: edukacja, rozwój talentów, sport i zdrowie, pomoc rodzinom w kryzysie.">
   <link rel="canonical" href="https://fundacjaprzebudzenie.com/">
-  <meta name="theme-color" content="#4381aa">
+  <meta name="theme-color" content="#0f2a40">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pl_PL">
-  <meta property="og:title" content="Fundacja Przebudzenie">
-  <meta property="og:description" content="Budząc potencjał, budzimy przyszłość. Wspieramy dzieci i młodzież w trudnościach i w rozwijaniu talentów.">
+  <meta property="og:site_name" content="Fundacja Przebudzenie">
+  <meta property="og:title" content="Fundacja Przebudzenie – Budząc potencjał, budzimy przyszłość">
+  <meta property="og:description" content="Wspieramy dzieci i młodzież w trudnościach i w rozwijaniu talentów. Każde dziecko zasługuje na równe szanse.">
   <meta property="og:url" content="https://fundacjaprzebudzenie.com/">
   <meta property="og:image" content="https://fundacjaprzebudzenie.com/assets/logo.jpg">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/style.css">
   <script type="application/ld+json">
@@ -26,7 +29,8 @@
     "url": "https://fundacjaprzebudzenie.com/",
     "logo": "https://fundacjaprzebudzenie.com/assets/logo.jpg",
     "email": "przebudzeniefundacja@gmail.com",
-    "slogan": "Budząc potencjał, budzimy przyszłość."
+    "slogan": "Budząc potencjał, budzimy przyszłość.",
+    "sameAs": ["https://www.instagram.com/fundacjaprzebudzenie/"]
   }
   </script>
 </head>
@@ -36,11 +40,11 @@
   <header class="site-header" id="top">
     <div class="wrap">
       <a class="brand" href="#top" aria-label="Fundacja Przebudzenie – strona główna">
-        <span class="brand-mark"><img src="assets/logo-mark.png" alt="" width="30" height="33"></span>
+        <span class="brand-mark"><img src="assets/logo-mark.png" alt="" width="27" height="30"></span>
         <span class="brand-text"><strong>PRZEBUDZENIE</strong><span>FUNDACJA</span></span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Otwórz menu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
       </button>
       <nav class="nav" id="nav" aria-label="Menu główne">
         <ul>
@@ -48,7 +52,7 @@
           <li><a href="#dzialania">Działania</a></li>
           <li><a href="#dla-kogo">Dla kogo</a></li>
           <li><a href="#wartosci">Wartości</a></li>
-          <li><a href="#plany">Plany</a></li>
+          <li><a href="#pomoc">Jak pomóc</a></li>
           <li><a class="nav-cta" href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
@@ -57,157 +61,235 @@
 
   <main id="tresc">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="wrap">
-        <div>
-          <span class="eyebrow">Wsparcie · Odwaga · Możliwości</span>
-          <h1 id="hero-title"><small>Fundacja</small>Przebudzenie</h1>
-          <p class="lead">Budząc potencjał, budzimy przyszłość.</p>
-          <p>Wspieramy dzieci i młodzież w trudnych chwilach i pomagamy rozwijać talenty, bo każde dziecko zasługuje na równe szanse, niezależnie od sytuacji rodzinnej czy materialnej.</p>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="label">Lęborska Fundacja Przebudzenie</span>
+          <h1 id="hero-title">Budząc potencjał, budzimy <em>przyszłość.</em></h1>
+          <p class="hero-lead">Towarzyszymy dzieciom i młodzieży w trudnych chwilach i pomagamy rozwijać talenty. Bo każde dziecko zasługuje na równe szanse, niezależnie od sytuacji rodzinnej czy materialnej.</p>
           <div class="actions">
-            <a class="btn btn-sun" href="#kontakt">Skontaktuj się z nami</a>
+            <a class="btn btn-sun" href="#pomoc">Dołącz do nas
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
             <a class="btn btn-ghost" href="#o-nas">Poznaj fundację</a>
           </div>
-          <ul class="hero-words" aria-label="Hasła fundacji">
-            <li>Nadzieja</li><li>Rozwój</li><li>Przyszłość</li>
-          </ul>
         </div>
-        <div class="hero-art">
-          <img src="assets/logo-mark.png" alt="Logo Fundacji Przebudzenie: radosne dziecko biegnące pod wschodzącym słońcem" width="352" height="390">
+        <div class="hero-sun">
+          <img src="assets/logo-mark.png" alt="Logo fundacji: radosne dziecko biegnące pod wschodzącym słońcem" width="352" height="390" fetchpriority="high">
         </div>
       </div>
+      <svg class="horizon" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 90V52C240 18 480 2 720 2s480 16 720 50v38z"/></svg>
     </section>
+
+    <div class="ticker" aria-label="Hasła fundacji">
+      <div class="ticker-track">
+        <ul>
+          <li>Nadzieja</li><li>Rozwój</li><li>Przyszłość</li><li>Siła</li><li>Marzenia</li><li>Odwaga</li>
+          <li>Skrzydła</li><li>Wsparcie</li><li>Pasja</li><li>Talenty</li><li>Równość</li><li>Możliwości</li>
+        </ul>
+        <ul aria-hidden="true">
+          <li>Nadzieja</li><li>Rozwój</li><li>Przyszłość</li><li>Siła</li><li>Marzenia</li><li>Odwaga</li>
+          <li>Skrzydła</li><li>Wsparcie</li><li>Pasja</li><li>Talenty</li><li>Równość</li><li>Możliwości</li>
+        </ul>
+      </div>
+    </div>
 
     <section class="section" id="o-nas" aria-labelledby="o-nas-title">
-      <div class="wrap split">
-        <div>
-          <span class="eyebrow">O nas</span>
-          <h2 id="o-nas-title">Każde dziecko rodzi się z ogromnym potencjałem</h2>
-          <p>Talentem, pasją, energią do odkrywania świata. Niestety, nie wszystkie dzieci mają równe szanse, by ten potencjał rozwijać. Fundacja „Przebudzenie” powstała właśnie po to, by pomagać młodym ludziom odnaleźć w sobie siłę, pokonać trudności i uwierzyć, że mogą osiągnąć wszystko, o czym marzą.</p>
-          <p>Naszą misją jest towarzyszenie dzieciom i młodzieży w trudnych chwilach – gdy zmagają się z problemami w domu, w szkole czy w relacjach – oraz promowanie tych, którzy wyróżniają się talentem i pasją.</p>
+      <div class="wrap manifest-grid">
+        <div style="display: grid; gap: 22px; align-content: start;">
+          <span class="label">O nas</span>
+          <h2 id="o-nas-title">Każde dziecko rodzi się z <em>ogromnym</em> potencjałem</h2>
         </div>
-        <div class="stack">
-          <blockquote class="quote">
-            „Budzić nadzieję, rozwijać talenty, wspierać w drodze do przyszłości.”
-            <footer>Motto fundacji</footer>
-          </blockquote>
-          <p>Tworzymy programy edukacyjne, sportowe i rozwojowe, organizujemy warsztaty i zajęcia dodatkowe, pomagamy finansowo tym, którzy tego potrzebują. Promujemy zdrowy styl życia i uczymy, jak dbać o ciało i umysł.</p>
-          <p>Fundacja „Przebudzenie” to nie tylko instytucja – to społeczność ludzi, którzy wierzą w moc wsparcia i w to, że nawet jeden gest może zmienić czyjeś życie. Razem budzimy nadzieję, otwieramy drzwi do nowych możliwości i pomagamy młodym ludziom rozwinąć skrzydła.</p>
+        <div style="display: grid; gap: 32px;">
+          <p class="manifest-big">Nie wszystkie dzieci mają równe szanse, by go rozwijać. Fundacja powstała po to, by pomagać młodym ludziom <mark>odnaleźć w sobie siłę</mark>, pokonać trudności i uwierzyć, że mogą osiągnąć wszystko, o czym marzą.</p>
+          <div class="manifest-body">
+            <p>Naszą misją jest towarzyszenie dzieciom i młodzieży w trudnych chwilach – gdy zmagają się z problemami w domu, w szkole czy w relacjach – oraz promowanie tych, którzy wyróżniają się talentem i pasją.</p>
+            <p>Tworzymy programy edukacyjne, sportowe i rozwojowe, organizujemy warsztaty i zajęcia dodatkowe, pomagamy finansowo tym, którzy tego potrzebują. Promujemy zdrowy styl życia i uczymy, jak dbać o ciało i umysł – bo szczęśliwe, zdrowe dziecko to młody człowiek, który z odwagą patrzy w przyszłość.</p>
+            <p>Fundacja „Przebudzenie” to nie tylko instytucja. To społeczność ludzi, którzy wierzą, że nawet jeden gest może zmienić czyjeś życie.</p>
+            <div class="sign">
+              <img src="assets/apple-touch-icon.png" alt="" width="52" height="52">
+              <span><strong>Zespół Fundacji Przebudzenie</strong>Razem pomagamy młodym ludziom rozwinąć skrzydła.</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="dzialania" aria-labelledby="dzialania-title">
+    <section class="section areas" id="dzialania" aria-labelledby="dzialania-title">
       <div class="wrap">
         <div class="section-head">
-          <span class="eyebrow">Obszary działalności</span>
-          <h2 id="dzialania-title">Czym się zajmujemy</h2>
-          <p>Tworzymy przestrzeń, w której młodzi ludzie mogą się uczyć, rozwijać swoje zdolności, nabywać prawidłowych wzorców zachowań społecznych i korzystać z równego dostępu do edukacji i kultury.</p>
+          <span class="label">Obszary działalności</span>
+          <h2 id="dzialania-title">Jak <em>pomagamy</em></h2>
+          <p>Tworzymy przestrzeń, w której młodzi ludzie mogą się uczyć, rozwijać zdolności, nabywać dobrych wzorców społecznych i korzystać z równego dostępu do edukacji i kultury.</p>
         </div>
-        <div class="cards">
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8l10-5 10 5-10 5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></div>
+        <div class="area-grid">
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8.5l10-5 10 5-10 5z"/><path d="M6 10.6V16c0 1.6 2.7 3 6 3s6-1.4 6-3v-5.4M22 8.5v5"/></svg></div>
             <h3>Edukacja i rozwój</h3>
-            <p>Wspieramy dzieci i młodzież w nauce, organizujemy zajęcia dodatkowe, warsztaty rozwijające zainteresowania oraz programy wyrównujące szanse edukacyjne.</p>
+            <p>Wsparcie w nauce, zajęcia dodatkowe, warsztaty rozwijające zainteresowania i programy wyrównujące szanse edukacyjne.</p>
           </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/></svg></div>
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l2.5 5.3 5.8.7-4.3 4 1.1 5.8L12 16.5l-5.1 2.8 1.1-5.8-4.3-4 5.8-.7z"/></svg></div>
             <h3>Rozwój talentów</h3>
-            <p>Budzimy i wspieramy potencjał młodych ludzi, stwarzając im warunki do rozwijania zdolności artystycznych, naukowych i sportowych.</p>
+            <p>Budzimy potencjał młodych ludzi i dajemy im warunki do rozwijania zdolności artystycznych, naukowych i sportowych.</p>
           </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.5"/><path d="M3 19c.6-3.2 3-5 6-5s5.4 1.8 6 5"/><path d="M15.5 14.2c2.6-.4 4.9 1.1 5.5 4.3"/></svg></div>
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.5"/><path d="M3 19.5c.6-3.2 3-5 6-5s5.4 1.8 6 5M15.5 14.5c2.6-.4 4.9 1.1 5.5 4.3"/></svg></div>
             <h3>Wychowanie społeczne</h3>
-            <p>Kształtujemy prawidłowe zachowania społeczne i propagujemy wartości takie jak współpraca, szacunek, odpowiedzialność i solidarność.</p>
+            <p>Kształtujemy dobre postawy i propagujemy współpracę, szacunek, odpowiedzialność i solidarność.</p>
           </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h3l2.5-6 4 12 2.5-6h6"/></svg></div>
-            <h3>Kultura fizyczna i zdrowie</h3>
-            <p>Upowszechniamy aktywność fizyczną, organizujemy zajęcia sportowe, programy prozdrowotne oraz wsparcie w zakresie prawidłowego odżywiania.</p>
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h3.5l2.5-6 4 12 2.5-6H21"/></svg></div>
+            <h3>Sport i zdrowie</h3>
+            <p>Upowszechniamy aktywność fizyczną, organizujemy zajęcia sportowe, programy prozdrowotne i wsparcie w zdrowym odżywianiu.</p>
           </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z"/></svg></div>
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z"/></svg></div>
             <h3>Wsparcie rodzin w kryzysie</h3>
-            <p>Przeciwdziałamy negatywnym skutkom dorastania w środowiskach zagrożonych ryzykownymi zachowaniami i budujemy sieć pomocy psychologicznej, społecznej i wychowawczej.</p>
+            <p>Przeciwdziałamy skutkom dorastania w trudnym środowisku i budujemy sieć pomocy psychologicznej, społecznej i wychowawczej.</p>
           </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M12 8v12M3 12h18M12 8c-1.5-3-5-3.5-5-1.2C7 8 9.5 8 12 8zm0 0c1.5-3 5-3.5 5-1.2C17 8 14.5 8 12 8z"/></svg></div>
+          <article class="area">
+            <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="8.5" width="17" height="11.5" rx="2"/><path d="M12 8.5V20M3.5 12.5h17M12 8.5c-1.5-3-5-3.5-5-1.2 0 1.2 2.5 1.2 5 1.2zm0 0c1.5-3 5-3.5 5-1.2 0 1.2-2.5 1.2-5 1.2z"/></svg></div>
             <h3>Pomoc materialna</h3>
-            <p>Udzielamy wsparcia finansowego i rzeczowego dzieciom oraz ich rodzinom, które znajdują się w trudnej sytuacji życiowej.</p>
+            <p>Udzielamy wsparcia finansowego i rzeczowego dzieciom oraz rodzinom w trudnej sytuacji życiowej.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="dla-kogo" aria-labelledby="dla-kogo-title">
-      <div class="wrap split">
-        <div>
-          <span class="eyebrow">Grupa docelowa</span>
-          <h2 id="dla-kogo-title">Dla kogo działamy</h2>
-          <p>Adresatami naszych działań są przede wszystkim dzieci i młodzież, szczególnie te pochodzące z rodzin zagrożonych wykluczeniem społecznym, borykających się z problemami wychowawczymi, materialnymi lub zdrowotnymi.</p>
-          <p>Wspieramy zarówno tych, którzy potrzebują pomocy, jak i tych, którzy pragną rozwijać swoje zdolności i szukają przestrzeni, by je rozwinąć.</p>
-        </div>
-        <ul class="checklist">
-          <li>Dzieci i młodzież z rodzin zagrożonych wykluczeniem społecznym</li>
-          <li>Młodzi ludzie borykający się z problemami wychowawczymi i emocjonalnymi</li>
-          <li>Dzieci i młodzież uzdolniona, wymagająca wsparcia w rozwijaniu swojego potencjału</li>
-          <li>Rodziny w trudnej sytuacji życiowej</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="wartosci" aria-labelledby="wartosci-title">
+    <section class="section audience" id="dla-kogo" aria-labelledby="dla-kogo-title">
       <div class="wrap">
         <div class="section-head">
-          <span class="eyebrow">Wartości</span>
-          <h2 id="wartosci-title">Na czym się opieramy</h2>
+          <span class="label">Grupa docelowa</span>
+          <h2 id="dla-kogo-title">Dla kogo <em>jesteśmy</em></h2>
+          <p>Wspieramy zarówno tych, którzy potrzebują pomocy, jak i tych, którzy chcą rozwijać swoje zdolności i szukają na to przestrzeni.</p>
+        </div>
+        <div class="who">
+          <article>
+            <svg class="ray" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 34a16 16 0 0 1 32 0"/><path d="M24 6v6M10 12l4 4M38 12l-4 4M4 24h5M39 24h5"/><path d="M4 40h40"/></svg>
+            <h3>Dzieci i młodzież z rodzin zagrożonych wykluczeniem</h3>
+            <p>Dla tych, którym sytuacja w domu odbiera szanse na naukę, rozwój i spokojne dorastanie.</p>
+          </article>
+          <article>
+            <svg class="ray" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M24 40s-14-8-14-19a8 8 0 0 1 14-5 8 8 0 0 1 14 5c0 11-14 19-14 19z"/></svg>
+            <h3>Młodzi ludzie w kryzysie</h3>
+            <p>Dla tych, którzy zmagają się z problemami wychowawczymi i emocjonalnymi i potrzebują kogoś obok.</p>
+          </article>
+          <article>
+            <svg class="ray" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 6l5 10.5 11.5 1.5-8.5 8 2 11.5L24 32l-10 5.5 2-11.5-8.5-8L19 16.5z"/></svg>
+            <h3>Dzieci i młodzież uzdolniona</h3>
+            <p>Dla tych, którzy mają talent i pasję, ale potrzebują wsparcia, by w pełni je rozwinąć.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="wartosci" aria-labelledby="wartosci-title">
+      <div class="wrap values-grid">
+        <div class="values-aside">
+          <span class="label">Wartości</span>
+          <h2 id="wartosci-title">Na czym się <em>opieramy</em></h2>
+          <p>To nasze drogowskazy w każdym projekcie: od zajęć dodatkowych po pomoc rodzinie w kryzysie.</p>
         </div>
         <ul class="values">
-          <li><span>01</span>Solidarność i wsparcie w kryzysie</li>
-          <li><span>02</span>Równość szans w dostępie do edukacji</li>
-          <li><span>03</span>Rozwój talentów i pasji</li>
-          <li><span>04</span>Zdrowie i aktywność fizyczna</li>
-          <li><span>05</span>Budowanie odpowiedzialnej wspólnoty</li>
+          <li>Solidarność i wsparcie w kryzysie <span>Wsparcie</span></li>
+          <li>Równość szans w dostępie do edukacji <span>Równość</span></li>
+          <li>Rozwój talentów i pasji <span>Pasja</span></li>
+          <li>Zdrowie i aktywność fizyczna <span>Siła</span></li>
+          <li>Budowanie odpowiedzialnej wspólnoty <span>Razem</span></li>
         </ul>
       </div>
     </section>
 
-    <section class="section" id="plany" aria-labelledby="plany-title">
+    <section class="section future" id="plany" aria-labelledby="plany-title">
       <div class="wrap">
-        <div class="future">
-          <div>
-            <span class="eyebrow" style="color: var(--sun)">Plany na przyszłość</span>
-            <h2 id="plany-title">Narzędzia na całe życie</h2>
-            <p>Celem jest nie tylko pomoc w bieżących trudnościach, ale także wyposażenie młodych ludzi w narzędzia, które pozwolą im odnosić sukcesy w przyszłości.</p>
+        <div class="future-head">
+          <div style="display: grid; gap: 22px;">
+            <span class="label">Plany na przyszłość</span>
+            <h2 id="plany-title">Co przed <em>nami</em></h2>
           </div>
-          <ul>
-            <li>Programy stypendialne dla zdolnych dzieci</li>
-            <li>Centra wsparcia edukacyjnego i psychologicznego dla młodzieży</li>
-            <li>Projekty prozdrowotne i sportowe</li>
-          </ul>
+          <p>Chcemy nie tylko pomagać w bieżących trudnościach, ale wyposażyć młodych ludzi w narzędzia, które pozwolą im odnosić sukcesy w dorosłym życiu.</p>
+        </div>
+        <ul class="plans">
+          <li>
+            <svg class="sunrise" viewBox="0 0 64 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M16 32a16 16 0 0 1 32 0"/><path d="M32 2v6M12 10l4 4M52 10l-4 4M2 32h60"/></svg>
+            <h3>Programy stypendialne</h3>
+            <p>Stypendia dla zdolnych dzieci, żeby talent nie przegrywał z sytuacją materialną.</p>
+          </li>
+          <li>
+            <svg class="sunrise" viewBox="0 0 64 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M16 32a16 16 0 0 1 32 0"/><path d="M32 2v6M12 10l4 4M52 10l-4 4M2 32h60"/></svg>
+            <h3>Centra wsparcia</h3>
+            <p>Miejsca pomocy edukacyjnej i psychologicznej, gdzie młodzież znajdzie wsparcie na co dzień.</p>
+          </li>
+          <li>
+            <svg class="sunrise" viewBox="0 0 64 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M16 32a16 16 0 0 1 32 0"/><path d="M32 2v6M12 10l4 4M52 10l-4 4M2 32h60"/></svg>
+            <h3>Sport i zdrowie</h3>
+            <p>Projekty prozdrowotne i sportowe, które uczą dbać o ciało i budują pewność siebie.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="pomoc" aria-labelledby="pomoc-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="label">Jak możesz pomóc</span>
+          <h2 id="pomoc-title">Nawet jeden gest może <em>zmienić czyjeś życie</em></h2>
+        </div>
+        <div class="help-grid">
+          <a class="help feature" href="mailto:przebudzeniefundacja@gmail.com?subject=Wolontariat%20w%20Fundacji%20Przebudzenie">
+            <h3>Zostań wolontariuszem</h3>
+            <p>Poprowadź zajęcia, pomóż w nauce, zorganizuj trening albo po prostu bądź obok. Każda umiejętność się przyda.</p>
+            <span class="go">Zgłoś się <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="help" href="mailto:przebudzeniefundacja@gmail.com?subject=Wsp%C3%B3%C5%82praca%20z%20Fundacj%C4%85%20Przebudzenie">
+            <h3>Zostań partnerem</h3>
+            <p>Szkoły, kluby sportowe, firmy i instytucje: razem możemy zrobić więcej dla dzieci w naszej okolicy.</p>
+            <span class="go">Porozmawiajmy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="help" href="mailto:przebudzeniefundacja@gmail.com?subject=Wsparcie%20dla%20Fundacji%20Przebudzenie">
+            <h3>Wesprzyj nas</h3>
+            <p>Darowizna finansowa lub rzeczowa – sprzęt sportowy, przybory szkolne, książki. Napisz, a podpowiemy, czego najbardziej potrzeba.</p>
+            <span class="go">Napisz do nas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="kontakt" aria-labelledby="kontakt-title">
+    <section class="section motto" aria-label="Motto fundacji">
+      <div class="wrap">
+        <blockquote>
+          <p>„Budzić nadzieję, rozwijać talenty, wspierać w&nbsp;drodze <em>do przyszłości.</em>”</p>
+          <footer><span class="label">Motto fundacji</span></footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt" aria-labelledby="kontakt-title">
       <div class="wrap contact-grid">
-        <div class="contact-card">
-          <span class="eyebrow" style="color: var(--sun)">Kontakt</span>
-          <h2 id="kontakt-title">Porozmawiajmy</h2>
-          <p>Potrzebujesz wsparcia, chcesz zostać wolontariuszem, nawiązać współpracę lub pomóc fundacji? Napisz do nas.</p>
-          <a class="contact-mail" href="mailto:przebudzeniefundacja@gmail.com">przebudzeniefundacja@gmail.com</a>
-          <div>
-            <a class="btn btn-sun" href="mailto:przebudzeniefundacja@gmail.com">Napisz wiadomość</a>
+        <div class="contact-main">
+          <span class="label">Kontakt</span>
+          <h2 id="kontakt-title">Napisz do <em>nas</em></h2>
+          <p>Potrzebujesz wsparcia dla siebie lub swojego dziecka? Chcesz pomóc, zostać wolontariuszem albo nawiązać współpracę? Odpowiadamy na każdą wiadomość.</p>
+          <div class="mail-row">
+            <a class="mail" id="mail" href="mailto:przebudzeniefundacja@gmail.com">przebudzeniefundacja@gmail.com</a>
+            <button class="copy" type="button" id="copy-mail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+              <span>Kopiuj</span>
+            </button>
           </div>
+          <a class="ig" href="https://www.instagram.com/fundacjaprzebudzenie/" rel="noopener" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>
+            <span>Obserwuj nas na Instagramie <strong>@fundacjaprzebudzenie</strong></span>
+          </a>
         </div>
-        <div class="data-card">
+        <div class="org">
           <h3>Dane fundacji</h3>
           <dl>
-            <dt>Nazwa</dt><dd>Lęborska Fundacja Przebudzenie</dd>
-            <dt>Siedziba</dt><dd><span class="todo">UZUPEŁNIJ: ulica, kod, miasto</span></dd>
-            <dt>KRS</dt><dd>0001189157</dd>
-            <dt>NIP</dt><dd><span class="todo">UZUPEŁNIJ</span></dd>
-            <dt>REGON</dt><dd><span class="todo">UZUPEŁNIJ</span></dd>
-            <dt>E-mail</dt><dd><a href="mailto:przebudzeniefundacja@gmail.com">przebudzeniefundacja@gmail.com</a></dd>
+            <div><dt>Nazwa</dt><dd>Lęborska Fundacja Przebudzenie</dd></div>
+            <div><dt>Siedziba</dt><dd><span class="todo">UZUPEŁNIJ: ulica, kod, miasto</span></dd></div>
+            <div><dt>KRS</dt><dd>0001189157</dd></div>
+            <div><dt>NIP</dt><dd><span class="todo">UZUPEŁNIJ</span></dd></div>
+            <div><dt>REGON</dt><dd><span class="todo">UZUPEŁNIJ</span></dd></div>
           </dl>
         </div>
       </div>
@@ -218,15 +300,26 @@
     <div class="wrap">
       <div class="footer-top">
         <div class="footer-brand">
-          <img src="assets/logo-full.png" alt="Fundacja Przebudzenie" width="120" height="101">
+          <img src="assets/logo-full.png" alt="Fundacja Przebudzenie" width="150" height="126">
           <p>Każde dziecko ma skrzydła – my pomagamy je rozwinąć.</p>
         </div>
-        <ul class="footer-links">
-          <li><a href="#o-nas">O nas</a></li>
-          <li><a href="#dzialania">Działania</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-          <li><a href="polityka-prywatnosci.html">Polityka prywatności</a></li>
-        </ul>
+        <div class="footer-col">
+          <h4>Fundacja</h4>
+          <ul>
+            <li><a href="#o-nas">O nas</a></li>
+            <li><a href="#dzialania">Jak pomagamy</a></li>
+            <li><a href="#dla-kogo">Dla kogo</a></li>
+            <li><a href="#pomoc">Jak możesz pomóc</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li><a href="mailto:przebudzeniefundacja@gmail.com">przebudzeniefundacja@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/fundacjaprzebudzenie/" rel="noopener" target="_blank">Instagram @fundacjaprzebudzenie</a></li>
+            <li><a href="polityka-prywatnosci.html">Polityka prywatności</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer-bottom">
         <span>© <span id="year">2026</span> Lęborska Fundacja Przebudzenie · KRS 0001189157</span>
@@ -240,17 +333,35 @@
       var header = document.querySelector('.site-header');
       var toggle = document.querySelector('.nav-toggle');
       var nav = document.getElementById('nav');
-      function onScroll() { header.classList.toggle('scrolled', window.scrollY > 8); }
+      function onScroll() { header.classList.toggle('scrolled', window.scrollY > 24); }
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
-      toggle.addEventListener('click', function () {
-        var open = nav.classList.toggle('open');
+
+      function setMenu(open) {
+        nav.classList.toggle('open', open);
+        header.classList.toggle('menu-open', open);
         toggle.setAttribute('aria-expanded', open);
         toggle.setAttribute('aria-label', open ? 'Zamknij menu' : 'Otwórz menu');
+      }
+      toggle.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+      nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+
+      var copyBtn = document.getElementById('copy-mail');
+      var mail = document.getElementById('mail');
+      copyBtn.addEventListener('click', function () {
+        var label = copyBtn.querySelector('span');
+        function done() { label.textContent = 'Skopiowano'; setTimeout(function () { label.textContent = 'Kopiuj'; }, 2000); }
+        function fallback() {
+          var r = document.createRange(); r.selectNodeContents(mail);
+          var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+          label.textContent = 'Zaznaczono';
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(mail.textContent.trim()).then(done, fallback);
+        } else { fallback(); }
       });
-      nav.addEventListener('click', function (e) {
-        if (e.target.tagName === 'A') { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
-      });
+
       document.getElementById('year').textContent = new Date().getFullYear();
     })();
   </script>
