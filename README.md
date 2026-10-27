@@ -1,16 +1,16 @@
-# Fundacja „Przebudzenie” – strona www
+# Fundacja „Przebudzenie”: strona www
 
 Statyczna strona (HTML + CSS, bez WordPressa) hostowana na GitHub Pages pod domeną **fundacjaprzebudzenie.com**.
 
 ## Struktura
 
-Strona ma kilka podstron. Gotowe pliki HTML w katalogu głównym są **generowane** – nie edytuj ich ręcznie.
+Strona ma kilka podstron. Gotowe pliki HTML w katalogu głównym są **generowane**: nie edytuj ich ręcznie.
 
-- `src/layout.html` – wspólny szablon: nagłówek, menu, stopka, meta tagi
-- `src/pages/*.html` – treść podstron (na górze każdej: tytuł i opis dla Google)
-- `src/partials/*.html` – powtarzalne bloki (karty działań, kroki, dane fundacji…)
-- `assets/` – style (`style.css`), skrypt (`site.js`), logo, ikony, czcionki
-- `build.py` – skleja wszystko w gotowe strony i aktualizuje `sitemap.xml`
+- `src/layout.html`: wspólny szablon: nagłówek, menu, stopka, meta tagi
+- `src/pages/*.html`: treść podstron (na górze każdej: tytuł i opis dla Google)
+- `src/partials/*.html`: powtarzalne bloki (karty działań, kroki, dane fundacji…)
+- `assets/`: style (`style.css`), skrypt (`site.js`), logo, ikony, czcionki
+- `build.py`: skleja wszystko w gotowe strony i aktualizuje `sitemap.xml`
 
 Po każdej zmianie w `src/` uruchom:
 
@@ -47,13 +47,13 @@ KRS 0001189157 · NIP 8411742753 · REGON 542493827
 
 Usuń stare rekordy A/CNAME wskazujące na dawny hosting.
 
-## SEO – po uruchomieniu domeny
+## SEO: po uruchomieniu domeny
 
 1. **Google Search Console** (search.google.com/search-console) → Dodaj usługę → *Domena* `fundacjaprzebudzenie.com`.
-   Google poda rekord TXT – dodaj go w Cloudflare (DNS → Add record → TXT, Name `@`).
+   Google poda rekord TXT: dodaj go w Cloudflare (DNS → Add record → TXT, Name `@`).
 2. W Search Console: **Mapy witryn** → wpisz `sitemap.xml` → Prześlij.
 3. **Sprawdzanie adresu URL** → `https://fundacjaprzebudzenie.com/` → *Poproś o zindeksowanie*.
-4. **Profil firmy w Google** (business.google.com) – załóż wizytówkę „Fundacja Przebudzenie”, kategoria *Organizacja charytatywna* / *Fundacja*, adres w Lęborku, link do strony.
+4. **Profil firmy w Google** (business.google.com): załóż wizytówkę „Fundacja Przebudzenie”, kategoria *Organizacja charytatywna* / *Fundacja*, adres w Lęborku, link do strony.
 5. Dodaj link do strony w bio na Instagramie.
 
 Przy zmianie treści zaktualizuj datę `lastmod` w `sitemap.xml`.
