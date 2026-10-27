@@ -509,3 +509,6 @@ body::before {
 .ig:hover { color: #fff; }
 .ig svg { width: 28px; height: 28px; color: var(--sun); flex: none; }
 .ig strong { display: block; color: #fff; }
+.org dd.board { display: grid; gap: 2px; }
+.org dd.board span { display: block; font-weight: 400; font-size: .85rem; color: var(--muted); margin-bottom: 8px; }
+.org dd.board span:last-child { margin-bottom: 0; }

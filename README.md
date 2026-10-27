@@ -11,16 +11,10 @@ Statyczna strona (HTML + CSS, bez WordPressa) hostowana na GitHub Pages pod dome
 - `CNAME` – domena dla GitHub Pages
 - `tresci.md` – wszystkie teksty fundacji przepisane z wydruków
 
-## Przed publikacją – UZUPEŁNIJ
+## Dane fundacji
 
-W `index.html` (sekcja „Dane fundacji”) i w `polityka-prywatnosci.html` (punkt 1) są żółte pola **UZUPEŁNIJ**:
-
-- adres siedziby
-- ~~numer KRS~~ (wpisany: 0001189157)
-- NIP
-- REGON
-
-Wyszukaj w plikach słowo `UZUPEŁNIJ` i podmień, usuwając też `<span class="todo">…</span>`.
+Lęborska Fundacja Przebudzenie, ul. Wincentego Witosa 80H/4, 84-300 Lębork
+KRS 0001189157 · NIP 8411742753 · REGON 542493827
 
 ## Włączenie GitHub Pages
 
