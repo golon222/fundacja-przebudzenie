@@ -2,14 +2,23 @@
 
 Statyczna strona (HTML + CSS, bez WordPressa) hostowana na GitHub Pages pod domeną **fundacjaprzebudzenie.com**.
 
-## Pliki
+## Struktura
 
-- `index.html` – strona główna
-- `polityka-prywatnosci.html` – polityka prywatności (RODO)
-- `404.html` – strona błędu
-- `assets/` – logo, favicony, styl, czcionka Montserrat (lokalnie, bez Google Fonts)
-- `CNAME` – domena dla GitHub Pages
-- `tresci.md` – wszystkie teksty fundacji przepisane z wydruków
+Strona ma kilka podstron. Gotowe pliki HTML w katalogu głównym są **generowane** – nie edytuj ich ręcznie.
+
+- `src/layout.html` – wspólny szablon: nagłówek, menu, stopka, meta tagi
+- `src/pages/*.html` – treść podstron (na górze każdej: tytuł i opis dla Google)
+- `src/partials/*.html` – powtarzalne bloki (karty działań, kroki, dane fundacji…)
+- `assets/` – style (`style.css`), skrypt (`site.js`), logo, ikony, czcionki
+- `build.py` – skleja wszystko w gotowe strony i aktualizuje `sitemap.xml`
+
+Po każdej zmianie w `src/` uruchom:
+
+```
+python3 build.py
+```
+
+i wypchnij zmiany (także wygenerowane pliki `.html`).
 
 ## Dane fundacji
 

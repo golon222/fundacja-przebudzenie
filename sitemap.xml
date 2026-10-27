@@ -3,9 +3,36 @@
   <url>
     <loc>https://fundacjaprzebudzenie.com/</loc>
     <lastmod>2026-10-27</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://fundacjaprzebudzenie.com/dzialania.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fundacjaprzebudzenie.com/kontakt.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fundacjaprzebudzenie.com/o-fundacji.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://fundacjaprzebudzenie.com/polityka-prywatnosci.html</loc>
     <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fundacjaprzebudzenie.com/potrzebujesz-wsparcia.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fundacjaprzebudzenie.com/wesprzyj.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
